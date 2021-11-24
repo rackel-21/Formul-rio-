@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+     <style>
+         body input{
+             text-align: center;
+         }
+     </style>
+</head>
+
+<body>
+    <fieldset style="width: 500px; height: 500px;" >
+
+        Formulário de Inscrição
+        <br>
+        <br>
+        Nome
+        <input type="text" placeholder="insira seu nome">
+        <br>
+        <br>
+        Sobrenome
+        <input type="text" placeholder="insira seu sobrenome">
+        <br>
+        <br>
+        Idade
+        <input type="number" name="idade" id="idade">
+        <br>
+        <br>
+        E-mail
+        <input type="email" name="e-mail" id="e-mail" placeholder="insira seu e-mail">
+        <br>
+        <br>
+        Sexo
+        Masculino <input type="radio" name="sexo" id="">
+        Feminino <input type="radio" name="sexo" id="">
+        <br>
+        <br>
+        Fotos
+        <input type="button" value="Choose File">
+        <br>
+        <br>
+        País
+        <select name="país" id="país">
+            <option value="1">Argentina</option>
+            <option value="2">Brasil</option>
+            <option value="3">Austria</option>
+            <option value="4">França</option>
+            <option value="5">EUA</option>
+            <option value="6">Alemanha</option>
+            <option value="7">Reino Unido</option>
+        </select>
+        <br>
+        <br>
+         As Linguagens que       
+              você Prefere?
+    
+    
+        <select name="info[]" size="4" multiple>
+            <option value="Java">Java</option>
+            <option value="c">C</option>
+            <option value="c++">C++</option>
+            <option value="php">PHP</option>
+            <option value="c#">C#</option>
+    
+        </select>
+        (Para fazer várias escolhas mantenha a tecla <br> CTRL pressionada)
+        <br>
+        <br>
+    
+        Áreas de Atuação
+    
+        <input type="checkbox" name="computação" id="">Computação
+        <input type="checkbox" name="gestão" id="">Gestão
+        <input type="checkbox" name="pedagogia" id=""> Pedagogia
+    
+        <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+    
+    </fieldset>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
